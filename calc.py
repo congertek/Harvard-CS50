@@ -11,6 +11,6 @@ clear_terminal()
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
-z = round(x + y, 3)
+z = x / y
 
-print(f"{z:,}")
+print(f"{z:.52f}")
