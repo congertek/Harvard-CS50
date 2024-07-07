@@ -1,5 +1,4 @@
 import os
-import time
 
 def clear_terminal():
     # Clear the terminal screen
