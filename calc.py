@@ -8,9 +8,9 @@ def clear_terminal():
 clear_terminal()
 
 #Get user input
-x = int(input("What's x? "))
-y = int(input("What's y? "))
+x = float(input("What's x? "))
+y = float(input("What's y? "))
 
-#z = int(x) + int(y)
+z = round(x + y, 3)
 
-print(x + y)
+print(f"{z:,}")
